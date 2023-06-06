@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body {
+    background-color: #F6F5F4;
+}
+
+.nav {
+  display: flex;
+  margin-top: 40px;
+}
+
+.list {
+  gap: 10px;
+  margin-left: 50px;
+  flex: 1 1 auto;
+  align-items: center;
+}
+
+.burger {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.burger-burger {
+  width: 24px;
+}
+
+.logo {
+  display: flex;
+  width: 165px;
+  align-items: center;
+}
+
+.header-logo-logo {
+  width: 100%;
+  height: auto;
+}
+
+.nav-nav {
+  display: flex;
+  margin-left: 30px;
+}
+.sign-ap {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.decor-decore {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.decor {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #2b788b;
+}
+
+.decor {
+  flex-direction: row;
+  justify-content: center;
+  padding: 9px 14px;
+  gap: 14px;
+  width: 41px;
+  height: 40px;
+  background: #c3dce3;
+  border-radius: 100px;
+}
+
+.alex {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: -0.04em;
+  color: #757575;
+  margin-left: 10px;
+}
+
+li a {
+  text-decoration: none;
+  padding: 20px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 19.8688px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #585858;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.small-a {
+  width: 100%;
+}
+
+.sign-sign {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+
+.img-boy-boy {
+  width: 100%;
+  height: auto;
+}
+
+.img-boy {
+  width: 500px;
+}
+
+.wrapper-two {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.color-text {
+  width: 225px;
+  height: 16px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #2b788b;
+}
+
+.text-bold {
+  width: 531px;
+  height: 201px;
+  font-family: "Dela Gothic One";
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  color: #000000;
+  margin-top: 24px;
+}
+
+.text-small {
+  width: 396.89px;
+  height: 50px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -0.04em;
+  color: #757575;
+  margin-top: 30px;
+}
+
+.batton {
+  width: 121px;
+  height: 16px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+  color: #2b788b;
+}
+
+.batton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 22px;
+  gap: 19px;
+  width: 165px;
+  height: 44px;
+  background: #c3dce3;
+  border-radius: 100px;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 884px) {
+  .sign-ap .sign-sign {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .list {
+    display: none;
+  }
+  .burger {
+    display: block;
+    align-items: center;
+  }
+  .nav {
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width:520px) {
+    .logo {
+        width: 25%;
+    }
+    .decor-decore {
+        width: auto;
+    }
+
+    .text {
+        display: none;
+    }
+    
+    .decor {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #2B788B;
+    }
+    .decor {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 9px 14px;
+        gap: 14px;
+        width: 32px;
+        height: 32px;
+        background: #C3DCE3;
+        border-radius: 100px;
+    }
+
+    .alex {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 140%;
+        letter-spacing: -0.04em;
+        color: #757575;
+    }
+}
